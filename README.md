@@ -7,7 +7,7 @@
     Type II: yes/no
 
   Next, will do:
-    1. Generated questions contain strings that are grammatical. So will need to use parser (e.g., PCFG     parser) to filter out those grammatical questions (with low probability)
+    1. Generated questions contain strings that are grammatical. So will need to use parser (e.g., PCFG         parser) to filter out those grammatical questions (with low probability)
 
     2. Add variance in generated questions, for example, use synonymy/antonym/hypernym/hypnoym.
 
