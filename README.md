@@ -3,11 +3,15 @@
 4.6-4.10
 
   Use Stanford NLP to parse a given document. Question generation functions, for each given tokenized     sentence, output the following questions:
+    
     Type I: who-when-what-where
+
     Type II: yes/no
 
   Next, will do:
-    1. Generated questions contain strings that are grammatical. So will need to use parser (e.g., PCFG         parser) to filter out those grammatical questions (with low probability)
+
+    1. Generated questions contain strings that are grammatical. 
+    So will need to use parser (e.g., PCFG parser) to filter out those grammatical questions (with low probability)
 
     2. Add variance in generated questions, for example, use synonymy/antonym/hypernym/hypnoym.
 
